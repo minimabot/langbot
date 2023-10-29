@@ -39,3 +39,6 @@
 
 # PNPM
 /node_modules
+
+# SSL
+/config/ssl
