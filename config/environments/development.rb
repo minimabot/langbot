@@ -78,5 +78,5 @@ Rails.application.configure do
   config.force_ssl = true
 
   # Enable DNS rebinding protection and other `Host` header attacks.
-  config.hosts << '.langbot.localhost'
+  config.hosts = ['admin.langbot.localhost', 'www.langbot.localhost']
 end
