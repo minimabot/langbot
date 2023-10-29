@@ -22,6 +22,7 @@ end
 
 group :development do
   gem "haml_lint", require: false
+  gem "lefthook", require: false
   gem "rack-mini-profiler"
   gem "rubocop", "~> 1.56", require: false
   gem "rubocop-capybara", require: false
