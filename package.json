@@ -1,0 +1,12 @@
+{
+  "name": "langbot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "prettier": "prettier --check --ignore-unknown",
+    "prettier:all": "pnpm prettier ."
+  },
+  "devDependencies": {
+    "prettier": "3.0.3"
+  }
+}
