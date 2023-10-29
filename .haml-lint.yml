@@ -1,0 +1,8 @@
+# HAML Lint reference
+# @see: https://github.com/sds/haml-lint/blob/main/lib/haml_lint/linter/README.md
+
+linters:
+  LineLength:
+    max: 120
+  SpaceInsideHashAttributes:
+    style: no_space
