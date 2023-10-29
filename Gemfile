@@ -4,6 +4,7 @@ ruby "3.2.2"
 
 gem "bootsnap", require: false
 gem "dartsass-rails"
+gem "haml-rails", "~> 2.0"
 gem "image_processing", "~> 1.2"
 gem "importmap-rails"
 gem "jbuilder"
