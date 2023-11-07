@@ -8,8 +8,7 @@
     "stylelint": "stylelint --allow-empty-input",
     "stylelint:all": "pnpm stylelint 'app/assets/stylesheets/**/*.scss'",
     "prettier": "prettier --check --ignore-unknown",
-    "prettier:all": "pnpm prettier .",
-    "postinstall": "bundle exec lefthook install"
+    "prettier:all": "pnpm prettier ."
   },
   "devDependencies": {
     "eslint": "^8.52.0",
